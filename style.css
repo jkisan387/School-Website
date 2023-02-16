@@ -286,7 +286,6 @@ nav .fa{
      opacity: 1;
 }
 
-
 /* facilities */
 
 .facilities{
@@ -335,19 +334,30 @@ nav .fa{
     box-shadow: 0px 0px 20px 0px rgba(4,9,30,0.7);
 }
 
-
 /* testimonial */
 
 .testimonial{
     width: 80%;
     margin: auto;
     text-align: center;
+    padding-top: 100px;
+}
+
+.testimonial h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.testimonial p{
+    color: rgb(168, 12, 111);
+    font-size: 15px;
+    font-weight: 300;
+    padding-top: 10px;
 }
 
 .testimonial-col{
     flex-basis: 44%;
     border-radius: 10px;
-    margin-top: 5%;
     text-align: left;
     background-color: #ffc55a;
     padding: 25px;
@@ -357,15 +367,14 @@ nav .fa{
 }
 
 .testimonial-col img{
-    height: 150px;
+    height: 70px;
     border-radius: 50%;
     margin-left: 5px;
     margin-right: 20px;
-    
 }
 
 .testimonial-col p{
-    padding:0;
+    padding: 0;
 }
 
 .testimonial-col h3{
@@ -373,24 +382,12 @@ nav .fa{
     text-align: left;
 }
 
-@media(max-width:700px){
-
-
-    .testimonial-col{
-        flex-direction: column;
-    }
-
+@media(max-width: 700px){
     .testimonial-col img{
-
-        height: 50%;
-        margin-bottom: 20px;
-    }
-
-    .testimonial-col h3{
-        text-align: center;
+        margin-left: 0;
+        margin-right: 10px;
     }
 }
-
 
 .cta{
 
