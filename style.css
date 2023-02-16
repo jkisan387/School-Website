@@ -235,7 +235,7 @@ nav .fa{
 }
 
 .campus p{
-    color: #390ba5;
+    color: #7758c0;
     font-size: 15px;
     font-weight: 300;
     line-height: 22px;
@@ -261,12 +261,11 @@ nav .fa{
     height: 100%;
     width: 100%;
     position: absolute;
-    top:0px; 
-    left:0;
+    top: 0; 
+    left: 0;
 }
 
 .layer:hover{
-
     background: rgba(33, 31, 31, 0.7);
 }
 
@@ -274,7 +273,7 @@ nav .fa{
 
     width: 100%;
     font-weight: 500;
-    color: #fff;
+    color: #7758c0;
     font-size: 26px;
     bottom: 0;
     left:50%;
