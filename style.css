@@ -59,7 +59,7 @@ nav img{
     content: '';
     width: 0%;
     height: 2px;
-    background:#f44336 ;
+    background:#c964f1 ;
     display: block;
     margin: auto;
     transition: 0.7s;
@@ -82,12 +82,17 @@ nav img{
 }
 
 .text-box h1{
+    color: #c964f1 ;
     font-size: 65px;
 }
 
 .text-box p{
     margin: 10px 0 40px;
-    font-size: 14px;
+    font-size: 20px;
+}
+
+.em{
+    font-size: 15px;
 }
 
 .hero-btn{
@@ -103,8 +108,8 @@ nav img{
 }
 
 .hero-btn:hover{
-    border: 1px solid #f44336;
-    background: #f44336;
+    border: 1px solid #c964f1 ;
+    background: #c964f1 ;
     transition: 1s;
 }
 nav .fa{
