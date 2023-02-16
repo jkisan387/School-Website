@@ -184,8 +184,8 @@ nav .fa{
 
 .courses p{
 
-    color: rgb(225, 99, 10);
-    font-size: 14px;
+    color: rgb(183, 0, 0);
+    font-size: 15px;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
@@ -200,12 +200,12 @@ nav .fa{
 .course-col{
 
     flex-basis: 31%;
-    background: #efddb6;
+    background: #f4e9d1;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
-    transition: 0.5s;
+    transition: 0.75s;
 
 }
 
