@@ -429,3 +429,16 @@ nav .fa{
     margin-bottom: 25px;
 
 }
+
+.footer .icon{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 35% 0;
+}
+
+.footer .me{
+    color: rgb(168, 12, 111);
+    font-size: 10px;
+    font-weight: 300;
+    padding-top: 40px;
+}
