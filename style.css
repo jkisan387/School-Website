@@ -166,7 +166,6 @@ nav .fa{
 /* courses */
 
 .courses{
-
     width: 80%;
     margin: auto;
     text-align: center;
@@ -175,13 +174,11 @@ nav .fa{
 }
 
 .courses h1{
-
     font-size: 40px;
     font-weight: 600;
 }
 
 .courses p{
-
     color: rgb(183, 0, 0);
     font-size: 15px;
     font-weight: 300;
@@ -195,7 +192,6 @@ nav .fa{
 }
 
 .course-col{
-
     flex-basis: 31%;
     background: #f4e9d1;
     border-radius: 10px;
@@ -213,7 +209,6 @@ nav .fa{
 }
 
 .course-col:hover{
-
     box-shadow: 0px 0px 20px 0px rgba(4,9,30,0.7);
 }
 
@@ -274,7 +269,6 @@ nav .fa{
 }
 
 .layer h3{
-
     width: 100%;
     font-weight: 500;
     color: #7758c0;
@@ -307,6 +301,13 @@ nav .fa{
     font-weight: 600;
 }
 
+.facilities p{
+    color: rgb(22, 139, 28);
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px;
+}
+
 .facilities-col{
     flex-basis: 31%;
     border-radius: 10px;
@@ -316,7 +317,8 @@ nav .fa{
 
 .facilities-col img{
    width: 100%;
-   border-radius: 10px; 
+   border-radius: 10px;
+   transition: 0.50s;
 }
 
 .facilities-col p{
@@ -327,6 +329,10 @@ nav .fa{
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: left;
+}
+
+.facilities-col:hover img{
+    box-shadow: 0px 0px 20px 0px rgba(4,9,30,0.7);
 }
 
 
