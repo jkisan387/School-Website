@@ -390,7 +390,6 @@ nav .fa{
 }
 
 .cta{
-
     margin: 100px auto;
     width: 90%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/banner.jpg);
@@ -402,8 +401,7 @@ nav .fa{
 }
 
 .cta h1{
-
-    color: #fff;
+    color: #fff700;
     margin-bottom: 40px;
     padding: 0;
 }
@@ -419,13 +417,14 @@ nav .fa{
 }
 
 .footer{
-
     width: 100%;
     text-align: center;
     padding: 30px 0;
 }
 
-.footer h4{
+.footer h1{
+    font-size: 40px;
+    font-weight: 600;
     margin-top: 20px;
     margin-bottom: 25px;
 
