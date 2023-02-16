@@ -163,16 +163,12 @@ nav .fa{
     }
 }
 
-
-
-/* Courses */
-
 .courses{
 
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 127px;
     background: #fff;
 }
 
@@ -187,7 +183,6 @@ nav .fa{
     color: rgb(183, 0, 0);
     font-size: 15px;
     font-weight: 300;
-    line-height: 22px;
     padding: 10px;
 }
 
@@ -227,16 +222,24 @@ nav .fa{
     }
 }
 
-
-/* CAMPUS */
-
-
 .campus{
-
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 100px;
+}
+
+.campus h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.campus p{
+    color: #390ba5;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px 75px;
 }
 
 .campus-col{
