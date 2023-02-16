@@ -163,6 +163,8 @@ nav .fa{
     }
 }
 
+/* courses */
+
 .courses{
 
     width: 80%;
@@ -221,6 +223,8 @@ nav .fa{
         flex-direction: column;
     }
 }
+
+/* blog */
 
 .campus{
     width: 80%;
@@ -292,16 +296,18 @@ nav .fa{
 /* facilities */
 
 .facilities{
-
     width: 80%;
     margin: auto;
     text-align: center;
-    
+    padding-top: 100px;
+}
 
+.facilities h1{
+    font-size: 40px;
+    font-weight: 600;
 }
 
 .facilities-col{
-
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5%;
