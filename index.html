@@ -196,21 +196,34 @@
         </div>
     </section>
 
-    <!-- JavaScript -->
+    <a href="#" class="to-top">
+        <i class="fa-solid fa-caret-up"></i>
+    </a>
+
+    <!-- javascript -->
 
     <script>
-
         var navLinks = document.getElementById("navlinks");
 
         function showmenu() {
-            navLinks.style.right = "0";
+        navLinks.style.right = "0";
         }
 
         function hidemenu() {
-            navLinks.style.right = "-200px";
+        navLinks.style.right = "-200px";
         }
-    </script>
 
+        const toTop = document.querySelector(".to-Top");
+
+        window.addEventListener("scroll", () => {
+            if(window.pageYOffset > 100){
+                toTop.classList.add("active");
+            }
+            else{
+                toTop.classList.remove("active");
+            }
+        })
+    </script>
 </body>
 
 </html>
