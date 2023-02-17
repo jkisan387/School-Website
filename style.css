@@ -442,3 +442,15 @@ nav .fa{
     font-weight: 300;
     padding-top: 40px;
 }
+
+.footer a:link{
+    color: rgb(168, 12, 111);
+}
+
+.footer a:visited{
+    color: #9a961e;
+}
+
+.footer a:hover{
+    color: #7758c0;
+}
