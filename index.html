@@ -203,17 +203,7 @@
     <!-- javascript -->
 
     <script>
-        var navLinks = document.getElementById("navlinks");
-
-        function showmenu() {
-        navLinks.style.right = "0";
-        }
-
-        function hidemenu() {
-        navLinks.style.right = "-200px";
-        }
-
-        const toTop = document.querySelector(".to-Top");
+        const toTop = document.querySelector(".to-top");
 
         window.addEventListener("scroll", () => {
             if(window.pageYOffset > 100){
@@ -223,6 +213,16 @@
                 toTop.classList.remove("active");
             }
         })
+        
+        var navLinks = document.getElementById("navlinks");
+
+        function showmenu() {
+        navLinks.style.right = "0";
+        }
+
+        function hidemenu() {
+        navLinks.style.right = "-200px";
+        }
     </script>
 </body>
 

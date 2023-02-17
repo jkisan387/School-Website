@@ -552,7 +552,6 @@ nav .fa{
 }
 
 .to-top{
-    background: white;
     position: fixed;
     bottom: 16px;
     right: 32px;
@@ -563,7 +562,7 @@ nav .fa{
     align-items: center;
     justify-content: center;
     font-size: 30px;
-    color: #fd0000;
+    color: #ffffff;
     text-decoration: none;
     opacity: 0;
     pointer-events: none;
@@ -571,6 +570,7 @@ nav .fa{
 }
 
 .to-top.active{
+    background-color: #c964f1;
     bottom: 32px;
     pointer-events: auto;
     opacity: 1;
